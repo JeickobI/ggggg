@@ -1,0 +1,11 @@
+C:\Users\user\source\repos\Windowsgh\obj\Debug\Windowsgh.csprojAssemblyReference.cache
+C:\Users\user\source\repos\Windowsgh\obj\Debug\Windowsgh.Form1.resources
+C:\Users\user\source\repos\Windowsgh\obj\Debug\Windowsgh.Properties.Resources.resources
+C:\Users\user\source\repos\Windowsgh\obj\Debug\Windowsgh.csproj.GenerateResource.cache
+C:\Users\user\source\repos\Windowsgh\obj\Debug\Windowsgh.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Windowsgh\bin\Debug\Windowsgh.exe.config
+C:\Users\user\source\repos\Windowsgh\bin\Debug\Windowsgh.exe
+C:\Users\user\source\repos\Windowsgh\bin\Debug\Windowsgh.pdb
+C:\Users\user\source\repos\Windowsgh\obj\Debug\Windowsgh.exe
+C:\Users\user\source\repos\Windowsgh\obj\Debug\Windowsgh.pdb
+C:\Users\user\source\repos\Windowsgh\obj\Debug\Windowsgh.MonsterForm.resources
