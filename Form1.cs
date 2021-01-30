@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
+using System.IO;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -29,7 +29,7 @@ namespace Windowsgh
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            MonsterForm m1 = new MonsterForm("Блёбик(*_*)");
+            MonsterForm m1 = new MonsterForm("Рогатый блёбик");
             m1.Show();
         }
 
@@ -46,7 +46,7 @@ namespace Windowsgh
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
-            MonsterForm m1 = new MonsterForm("Чертила(не из дума)");
+            MonsterForm m1 = new MonsterForm("Чёрт");
             m1.Show();
         }
 
