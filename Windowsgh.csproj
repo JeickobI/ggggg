@@ -109,5 +109,14 @@
   <ItemGroup>
     <None Include="Resources\глыбень.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="mutter\мумия.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="mutter\мошко-гусень.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="mutter\гнилой.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

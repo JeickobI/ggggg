@@ -29,7 +29,8 @@ namespace Windowsgh
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            MonsterForm m1 = new MonsterForm("Рогатый блёбик");
+            PictureBox pb = (PictureBox)sender;
+            MonsterForm m1 = new MonsterForm(pb.Tag.ToString());
             m1.Show();
         }
 
@@ -50,21 +51,28 @@ namespace Windowsgh
             m1.Show();
         }
 
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-            MonsterForm m1 = new MonsterForm("зубастик");
-            m1.Show();
-        }
-
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-            MonsterForm m1 = new MonsterForm("Сопля");
-            m1.Show();
-        }
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
             MonsterForm m1 = new MonsterForm("Глыбень");
+            m1.Show();
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            MonsterForm m1 = new MonsterForm("Мумия");
+            m1.Show();
+        }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+            MonsterForm m1 = new MonsterForm("Мошко-гусень");
+            m1.Show();
+        }
+
+        private void pictureBox9_Click(object sender, EventArgs e)
+        {
+            MonsterForm m1 = new MonsterForm("Гнилой");
             m1.Show();
         }
     }
