@@ -73,6 +73,16 @@ namespace Windowsgh.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap гнилой {
+            get {
+                object obj = ResourceManager.GetObject("гнилой", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap грут {
             get {
                 object obj = ResourceManager.GetObject("грут", resourceCulture);
@@ -86,6 +96,26 @@ namespace Windowsgh.Properties {
         internal static System.Drawing.Bitmap зубастик {
             get {
                 object obj = ResourceManager.GetObject("зубастик", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap мошко_гусень {
+            get {
+                object obj = ResourceManager.GetObject("мошко_гусень", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap мумия {
+            get {
+                object obj = ResourceManager.GetObject("мумия", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -136,4 +136,13 @@
   <data name="глыбень" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\глыбень.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="гнилой" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\mutter\гнилой.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="мошко_гусень" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\mutter\мошко-гусень.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="мумия" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\mutter\мумия.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>
