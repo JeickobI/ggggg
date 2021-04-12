@@ -118,31 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="сопля" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\сопля.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="LikeOff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LikeOff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="рогатый блёбик" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\рогатый блёбик.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="грут" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\грут.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="чёрт" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\чёрт.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="зубастик" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\зубастик.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="глыбень" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\глыбень.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="гнилой" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\mutter\гнилой.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="мошко_гусень" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\mutter\мошко-гусень.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="мумия" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\mutter\мумия.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="LikeOn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LikeOn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

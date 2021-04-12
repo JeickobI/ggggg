@@ -33,7 +33,9 @@ namespace Windowsgh
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.labelChars = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -54,7 +56,7 @@ namespace Windowsgh
             this.label1.Location = new System.Drawing.Point(310, 9);
             this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(60, 29);
+            this.label1.Size = new System.Drawing.Size(81, 37);
             this.label1.TabIndex = 1;
             this.label1.Text = "Имя";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -74,15 +76,27 @@ namespace Windowsgh
             this.labelChars.AutoSize = true;
             this.labelChars.Location = new System.Drawing.Point(13, 338);
             this.labelChars.Name = "labelChars";
-            this.labelChars.Size = new System.Drawing.Size(156, 24);
+            this.labelChars.Size = new System.Drawing.Size(203, 29);
             this.labelChars.TabIndex = 3;
             this.labelChars.Text = "Характеристики";
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Windowsgh.Properties.Resources.LikeOff;
+            this.pictureBox2.Location = new System.Drawing.Point(615, 13);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(109, 72);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 4;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            // 
             // MonsterForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(736, 576);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.labelChars);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -93,6 +107,7 @@ namespace Windowsgh
             this.Text = "mnstr";
             this.Load += new System.EventHandler(this.MonsterForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -104,5 +119,6 @@ namespace Windowsgh
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label labelChars;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

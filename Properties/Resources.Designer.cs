@@ -63,9 +63,9 @@ namespace Windowsgh.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap глыбень {
+        internal static System.Drawing.Bitmap LikeOff {
             get {
-                object obj = ResourceManager.GetObject("глыбень", resourceCulture);
+                object obj = ResourceManager.GetObject("LikeOff", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,79 +73,9 @@ namespace Windowsgh.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap гнилой {
+        internal static System.Drawing.Bitmap LikeOn {
             get {
-                object obj = ResourceManager.GetObject("гнилой", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap грут {
-            get {
-                object obj = ResourceManager.GetObject("грут", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap зубастик {
-            get {
-                object obj = ResourceManager.GetObject("зубастик", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap мошко_гусень {
-            get {
-                object obj = ResourceManager.GetObject("мошко_гусень", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap мумия {
-            get {
-                object obj = ResourceManager.GetObject("мумия", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap рогатый_блёбик {
-            get {
-                object obj = ResourceManager.GetObject("рогатый блёбик", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap сопля {
-            get {
-                object obj = ResourceManager.GetObject("сопля", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap чёрт {
-            get {
-                object obj = ResourceManager.GetObject("чёрт", resourceCulture);
+                object obj = ResourceManager.GetObject("LikeOn", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
