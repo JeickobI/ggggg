@@ -12,6 +12,11 @@ namespace Windowsgh
 {
     public partial class MonsterForm : Form
     {
+        /// <summary>
+        /// Выбранный монстр
+        /// </summary>
+        Monster currentMonstr;
+
         public MonsterForm(string name)
         {
             InitializeComponent();
@@ -22,16 +27,21 @@ namespace Windowsgh
             {
                 if (monstr.name == name)
                 {
+                    currentMonstr = monstr;
                     labelChars.Text = "Характеристики:" + Environment.NewLine +
                         monstr.characteristics;
 
+                    label2.Text = monstr.description;
+
                     string s = "Сила:" + monstr.power.ToString();
+
+                    if (Form1.liked_monsters.Contains(monstr))
+                        pictureBox2.Image = Properties.Resources.LikeOn;
                 }
             }
-
+            /*
             if (name == "Грут")
             {
-                labelChars.Text = "Активен, терпелив, пьющий";
                 label2.Text = "Может пускать корни, и создавать непреодалимые препятствия из своих корней. Не мусори в парке, иначе он придёт к тебе";
             }
             if (name == "Сопля")
@@ -65,7 +75,7 @@ namespace Windowsgh
             if (name == "Гнилой")
             {
                 label2.Text = "От этого красавчика воняет помойкой";
-            }
+            }*/
 
             pictureBox1.Load("../../mutter/" + name + ".jpg");
         }
@@ -89,6 +99,23 @@ namespace Windowsgh
         private void label2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        /// <summary>
+        /// Клик на лайк
+        /// </summary>
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            if (Form1.liked_monsters.Contains(currentMonstr))
+            {
+                pictureBox2.Image = Properties.Resources.LikeOff;
+                Form1.liked_monsters.Remove(currentMonstr);
+            }
+            else
+            {
+                pictureBox2.Image = Properties.Resources.LikeOn;
+                Form1.liked_monsters.Add(currentMonstr);
+            }
         }
     }
 }

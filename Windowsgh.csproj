@@ -72,6 +72,9 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="HG.resx">
+      <DependentUpon>HG.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MonsterForm.resx">
       <DependentUpon>MonsterForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -124,6 +127,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="mutter\гнилой.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LikeOff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LikeOn.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

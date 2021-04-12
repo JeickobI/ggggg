@@ -1,7 +1,7 @@
 ﻿
-namespace Windowsgh.Resources
+namespace Windowsgh
 {
-    partial class Form1
+    partial class HG
     {
         /// <summary>
         /// Required designer variable.
@@ -29,10 +29,17 @@ namespace Windowsgh.Resources
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // HG
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.Name = "HG";
+            this.Text = "Понравившиеся персонажи";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
