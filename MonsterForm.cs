@@ -17,6 +17,18 @@ namespace Windowsgh
             InitializeComponent();
             Text = name;
             label1.Text = name;
+
+            foreach (Monster monstr in Form1.monsters)
+            {
+                if (monstr.name == name)
+                {
+                    labelChars.Text = "Характеристики:" + Environment.NewLine +
+                        monstr.characteristics;
+
+                    string s = "Сила:" + monstr.power.ToString();
+                }
+            }
+
             if (name == "Грут")
             {
                 labelChars.Text = "Активен, терпелив, пьющий";
@@ -70,6 +82,11 @@ namespace Windowsgh
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
         {
 
         }

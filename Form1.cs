@@ -20,24 +20,24 @@ namespace Windowsgh
     }
     public partial class Form1 : Form
     {
-        public Monster[] monsters = new Monster[9];
+        public static List<Monster> monsters = new List<Monster>();
         public Form1()
         {
             InitializeComponent();
 
-            monsters[0] = new Monster { name = "Рогатый блёбик", power = 3, characteristics = "Спит" };
-            monsters[1] = new Monster { name = "Зубастик", power = 4, characteristics = "Кусается" };
-            monsters[2] = new Monster { name = "Грут", power = 6, characteristics = "Может отравить" };
-            monsters[3] = new Monster { name = "Глыбень", power = 9, characteristics = "Кидается камнями" };
-            monsters[4] = new Monster { name = "Гнилой", power = 1, characteristics = "Кусается" };
+            monsters.Add(new Monster { name = "Рогатый блёбик", power = 3, characteristics = "Спит" });
+            monsters.Add(new Monster { name = "Зубастик", power = 4, characteristics = "Кусается" });
+            monsters.Add(new Monster { name = "Грут", power = 6, characteristics = "Может отравить" });
+            monsters.Add(new Monster { name = "Глыбень", power = 9, characteristics = "Кидается камнями" });
+            monsters.Add(new Monster { name = "Гнилой", power = 1, characteristics = "Кусается" });
 
             int x = 10;
             int y = 50;
-            for (int i = 0; i < 4; i++)
+            for (int i = 0; i < 5; i++)
             {
                 PictureBox pb = new PictureBox();
                 pb.Load("../../mutter/" + monsters[i].name + ".jpg");
-                pb.Location = new Point(x, 68);
+                pb.Location = new Point(x, y);
                 pb.Tag = monsters[i].name;
                 pb.Size = new Size(170, 170);
                 pb.SizeMode = PictureBoxSizeMode.Zoom;
@@ -56,58 +56,10 @@ namespace Windowsgh
         {
 
         }
-
-        private void domainUpDown1_SelectedItemChanged(object sender, EventArgs e)
-        {
-            
-        }
-
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             PictureBox pb = (PictureBox)sender;
             MonsterForm m1 = new MonsterForm(pb.Tag.ToString());
-            m1.Show();
-        }
-
-        private void vScrollBar1_Scroll(object sender, ScrollEventArgs e)
-        {
-
-        }
-
-        private void pictureBox6_Click(object sender, EventArgs e)
-        {
-            MonsterForm m1 = new MonsterForm("Грут");
-            m1.Show();
-        }
-
-        private void pictureBox5_Click(object sender, EventArgs e)
-        {
-            MonsterForm m1 = new MonsterForm("Чёрт");
-            m1.Show();
-        }
-
-
-        private void pictureBox4_Click(object sender, EventArgs e)
-        {
-            MonsterForm m1 = new MonsterForm("Глыбень");
-            m1.Show();
-        }
-
-        private void pictureBox7_Click(object sender, EventArgs e)
-        {
-            MonsterForm m1 = new MonsterForm("Мумия");
-            m1.Show();
-        }
-
-        private void pictureBox8_Click(object sender, EventArgs e)
-        {
-            MonsterForm m1 = new MonsterForm("Мошко-гусень");
-            m1.Show();
-        }
-
-        private void pictureBox9_Click(object sender, EventArgs e)
-        {
-            MonsterForm m1 = new MonsterForm("Гнилой");
             m1.Show();
         }
     }
