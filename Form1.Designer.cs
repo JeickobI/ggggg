@@ -32,16 +32,14 @@ namespace Windowsgh
             this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.domainUpDown1 = new System.Windows.Forms.DomainUpDown();
             this.directorySearcher1 = new System.DirectoryServices.DirectorySearcher();
             this.SuspendLayout();
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(9, 7);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(181, 41);
+            this.label1.Size = new System.Drawing.Size(241, 50);
             this.label1.TabIndex = 0;
             this.label1.Text = "ИНФОРМАЦИЯ О МОНСТРАХ:";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -49,15 +47,6 @@ namespace Windowsgh
             // timer1
             // 
             this.timer1.Interval = 1000;
-            // 
-            // domainUpDown1
-            // 
-            this.domainUpDown1.Location = new System.Drawing.Point(392, 10);
-            this.domainUpDown1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.domainUpDown1.Name = "domainUpDown1";
-            this.domainUpDown1.Size = new System.Drawing.Size(150, 20);
-            this.domainUpDown1.TabIndex = 10;
-            this.domainUpDown1.Text = "domainUpDown1";
             // 
             // directorySearcher1
             // 
@@ -67,15 +56,14 @@ namespace Windowsgh
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(568, 674);
-            this.Controls.Add(this.domainUpDown1);
+            this.ClientSize = new System.Drawing.Size(757, 830);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Монстры";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
@@ -85,7 +73,6 @@ namespace Windowsgh
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.DomainUpDown domainUpDown1;
         private System.DirectoryServices.DirectorySearcher directorySearcher1;
     }
 }

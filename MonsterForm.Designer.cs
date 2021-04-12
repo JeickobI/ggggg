@@ -54,7 +54,7 @@ namespace Windowsgh
             this.label1.Location = new System.Drawing.Point(310, 9);
             this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(81, 37);
+            this.label1.Size = new System.Drawing.Size(60, 29);
             this.label1.TabIndex = 1;
             this.label1.Text = "Имя";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -67,19 +67,20 @@ namespace Windowsgh
             this.label2.Size = new System.Drawing.Size(452, 344);
             this.label2.TabIndex = 2;
             this.label2.Text = "Описание";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // labelChars
             // 
             this.labelChars.AutoSize = true;
             this.labelChars.Location = new System.Drawing.Point(13, 338);
             this.labelChars.Name = "labelChars";
-            this.labelChars.Size = new System.Drawing.Size(203, 29);
+            this.labelChars.Size = new System.Drawing.Size(156, 24);
             this.labelChars.TabIndex = 3;
             this.labelChars.Text = "Характеристики";
             // 
             // MonsterForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(736, 576);
             this.Controls.Add(this.labelChars);
